@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tube</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="w-[90%] m-auto mb-20">
+    <nav class="mt-10">
+        <div class="flex justify-between text-centern">
+            <img src="./image/Logo.png" alt="">
+            <button  class="btn-primary bg-slate-300 text-black px-4 rounded hover:bg-[#FF1F3D]">Short by view</button>
+            <button onclick="openNewFile()" class="px-4 text-white  rounded bg-[#FF1F3D]">Blog</button>
+        </div>
+       <hr class="mt-6 mx-112">
+       
+    </nav>
+
+    <div class="tab-container w-full">
+        <div class="tabs tabs p-5 w-96 m-auto text-center flex justify-center"
+          id="tab-container">
+          
+        </div>
+      </div>
+
+      <div id="card-container" class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+      </div>
+
+      <div class="text-center mt-10" id="empty-container">
+       <!--  <img class="mx-auto" src="image/Icon.png" alt="">
+        <p class="mt-4 font-bold text-3xl text-black">Oops!! Sorry, There is no <br> content here</p> -->
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+        function openNewFile(){
+            window.open('newfile.html', '_blank')
+        }
+    </script>
+</body>
+</html>
