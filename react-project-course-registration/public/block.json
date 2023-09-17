@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/23W4rHz/pic-1.png",
+        "title": "Introduction to C Programming",
+        "description": "Master the fundamentals of C programming language.",
+        "price": 15000,
+        "credit": 1
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/Rhfk5hq/pic-2.png",
+        "title": "Introduction to Algorithms",
+        "description": "Dive deep into the world of algorithms and sharpen your problem-solving skills.",
+        "price": 25000,
+        "credit": 2
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/qYd7JL4/pic-3.png",
+        "title": "Introduction to C++ for DSA",
+        "description": "Harness the power of C++ for Data Structures and Algorithms (DSA) and ace your coding interviews.",
+        "price": 10000,
+        "credit": 10
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/86kytfD/pic-4.png",
+        "title": "Basic Data Structures",
+        "description": "Build a solid foundation in essential data structures for efficient coding and create dynamic applications.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/BN8sjcH/pic-5.png",
+        "title": "Introduction to OOP Python",
+        "description": "Unlock the world of Object-Oriented Programming (OOP) in Python and create dynamic applications.",
+        "price": 19000,
+        "credit": 5
+    },
+    {
+        "id": 6,
+        "cover": "https://i.ibb.co/w0gBs3j/pic-6.png",
+        "title": "Software Engineering",
+        "description": "Learn the principles and practices of software engineering to build robust and scalable applications.",
+        "price": 23000,
+        "credit": 2
+    },
+    {
+        "id": 7,
+        "cover": "https://i.ibb.co/8gQ895q/pic-7.png",
+        "title": "AWS, Cloud Computing",
+        "description": "Navigate the world of cloud computing with Amazon Web Services (AWS) and become a cloud expert.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": 8,
+        "cover": "https://i.ibb.co/wLp2nP7/pic-8.png",
+        "title": "Database (MySQL)",
+        "description": "Dive into the world of relational databases with MySQL and become a proficient database developer.",
+        "price": 19000,
+        "credit": 5
+    },
+    {
+        "id": 9,
+        "cover": "https://i.ibb.co/MZ4HK31/pic-9.png",
+        "title": "Problem-Solving Part",
+        "description": "Enhance your problem-solving skills and tackle coding challenges like a pro.",
+        "price": 23000,
+        "credit": 2
+    }
+]
