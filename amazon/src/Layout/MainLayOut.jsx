@@ -1,8 +1,13 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigation } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import Spinner from "../Components/Spinner/Spinner";
+
 
 
 const MainLayOut = () => {
+    const navigation = useNavigation()
+    const isoLoadingData = navigation.state === "loading";
+    console.log(isoLoadingData);
     return (
         <div>
             
@@ -19,15 +24,17 @@ const MainLayOut = () => {
                     </ul>
                 </nav>
         </section>
-        <div className="min-h-screen">
-        <Outlet></Outlet>
+        { navigation.state === 'loading'? (
+        <Spinner></Spinner>
+        ) : (
+        <div className="my-10 min-h-screen">
+          <Outlet></Outlet>
         </div>
-
-        
+      )}
        <Footer></Footer>
 
 
-        </div>
+    </div>
     );
 };
 
