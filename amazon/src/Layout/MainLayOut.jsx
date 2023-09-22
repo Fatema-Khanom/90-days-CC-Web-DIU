@@ -1,4 +1,4 @@
-import { Outlet, useNavigation } from "react-router-dom";
+import { NavLink, Outlet, useNavigation } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Spinner from "../Components/Spinner/Spinner";
 
@@ -18,9 +18,16 @@ const MainLayOut = () => {
             </div>
                 <nav>
                     <ul className="flex gap-5">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/products">Products</a></li>
-                        <li><a href="/dashboard">Dashboard</a></li>
+                       
+                        <NavLink to="/"className={({ isActive, isPending }) => 
+                        isPending ? "pending" : isActive ? "bg-gray-200 py-2 px-6 rounded" : ""}>Home</NavLink>
+
+                        <NavLink to="/products"className={({ isActive, isPending }) => 
+                        isPending ? "pending" : isActive ? "bg-gray-200 py-2 px-6 rounded" : ""}>Products</NavLink>
+
+                        <NavLink to="/dashboard"className={({ isActive, isPending }) => 
+                        isPending ? "pending" : isActive ? "bg-gray-200 py-2 px-6 rounded" : ""}>Dashboard</NavLink>
+                        
                     </ul>
                 </nav>
         </section>

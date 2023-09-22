@@ -2,12 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayOut from "../Layout/MainLayOut";
 import Home from "../Pages/Home/Home";
 import Products from "../Pages/Home/Products/Products";
-// import Dashboard from "../Pages/Dashboard/Dashboard";
+ import Dashboard from "../Pages/Dashboard/Dashboard";
 import Product from "../Product/Product";
-import DashBoardLayout from "../Layout/DashBoardLayout";
-import Dashboard from "../Pages/Dashboard/Dashboard";
 import Profile from "../Pages/Dashboard/Profile";
 import EditProfile from "../Pages/Dashboard/EditProfile";
+import DashBoardLayout from "../Layout/DashBoardLayout";
 
 
 const myCreatedRoute = createBrowserRouter([
