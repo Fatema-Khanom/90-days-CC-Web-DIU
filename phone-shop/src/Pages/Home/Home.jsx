@@ -5,12 +5,12 @@ import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
     const phones = useLoaderData()
-    console.log(phones)
+    
     return (
 
         <div>
             <Bannar></Bannar>
-            <Phones></Phones>
+            <Phones phones={phones}></Phones>
         </div>
     );
 };
